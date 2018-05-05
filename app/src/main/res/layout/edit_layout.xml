@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editText_name_edit"
+            android:layout_width="355dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="tài khoản"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_pass_edit"
+            android:layout_width="251dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText_name_edit"
+            android:layout_marginTop="94dp"
+            android:ems="10"
+            android:hint="mật khẩu"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/editText_name_edit"
+            android:layout_alignTop="@+id/editText_pass_edit"
+            android:text="update" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:text="back " />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
